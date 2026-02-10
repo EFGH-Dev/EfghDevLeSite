@@ -1,0 +1,66 @@
+﻿@using Microsoft.JSInterop
+@using Microsoft.AspNetCore.Components.Web
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Navigation
+<Component />
+@if (ShowBanner)
+{
+    <div class="cookie-banner animate-slide-up">
+        <div class="cookie-content">
+            <div class="cookie-icon">
+                <i class="fas fa-cookie-bite"></i>
+            </div>
+            <div class="cookie-text">
+                <h5>Cookies & Confidentialité</h5>
+                <p>
+                    Ce site utilise des cookies pour assurer son bon fonctionnement et améliorer votre expérience utilisateur.
+                    Nous ne traçons pas votre vie privée sans votre accord.
+                    <a href="mentions-legales">En savoir plus</a>.
+                </p>
+            </div>
+        </div>
+        <div class="cookie-actions">
+            <button type="button" class="btn-cookie-refuse" @onclick="RefuseCookies">Refuser</button>
+            <button type="button" class="btn-cookie-accept" @onclick="AcceptCookies">Accepter</button>
+        </div>
+    </div>
+}
+
+@code {
+    private bool ShowBanner = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            try
+            {
+                var cookieChoice = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "cookieConsent");
+
+                if (string.IsNullOrEmpty(cookieChoice))
+                {
+                    ShowBanner = true;
+                    StateHasChanged();
+                }
+            }
+            catch (Exception)
+            {
+                // Gestion d'erreur si le JS n'est pas encore prêt
+            }
+        }
+    }
+
+    private async Task AcceptCookies()
+    {
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "cookieConsent", "Accepted");
+        ShowBanner = false;
+    }
+
+    private async Task RefuseCookies()
+    {
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "cookieConsent", "Refused");
+        ShowBanner = false;
+        // Redirection vers la page Legal.razor présente dans ton dossier Pages
+        Navigation.NavigateTo("mentions-legales");
+    }
+}

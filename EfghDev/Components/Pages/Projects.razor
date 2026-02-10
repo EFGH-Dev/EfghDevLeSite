@@ -1,0 +1,100 @@
+﻿@page "/realisations"
+@using EfghDev.Models
+@using EfghDev.Components
+
+<PageTitle>Mes Réalisations - EFGH Dev</PageTitle>
+
+<div class="projects-page">
+
+    <section class="hero-section mb-5">
+        <div class="container">
+            <h1 class="mb-3" style="font-weight: 800; font-size: 3rem; color: var(--text-light);">
+                MES <span style="color: var(--primary-cyan);">RÉALISATIONS</span>
+            </h1>
+            <div style="width: 60px; height: 4px; background: var(--primary-pink); margin: 0 auto 20px auto; border-radius: 2px;"></div>
+            <p style="color: #b8b8b8; max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
+                Exploration de mes projets : du développement Web aux solutions logicielles sur mesure.
+            </p>
+        </div>
+    </section>
+
+    <div class="container mb-5" style="min-height: 60vh;">
+
+        <div class="filter-container text-center mb-5 animate-entry delay-2">
+            <button class="btn-filter @(activeCategory == "Tout" ? "active" : "")" @onclick="@(() => Filter("Tout"))">Tout</button>
+            <button class="btn-filter @(activeCategory == "Web" ? "active" : "")" @onclick="@(() => Filter("Web"))">Web</button>
+            <button class="btn-filter @(activeCategory == "Mobile" ? "active" : "")" @onclick="@(() => Filter("Mobile"))">Mobile</button>
+            <button class="btn-filter @(activeCategory == "Logiciel" ? "active" : "")" @onclick="@(() => Filter("Logiciel"))">Logiciel</button>
+        </div>
+
+        <div class="row g-4 animate-entry delay-3">
+            @foreach (var projet in FilteredProjects)
+            {
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                    <ProjectCard Item="projet" />
+                </div>
+            }
+
+            @if (FilteredProjects.Count == 0)
+            {
+                <div class="col-12 text-center mt-5">
+                    <p class="text-muted" style="font-size: 1.2rem;">
+                        <i class="fas fa-search me-2"></i> Aucun projet trouvé dans cette catégorie.
+                    </p>
+                </div>
+            }
+        </div>
+
+        <div style="height: 100px;"></div>
+    </div>
+
+</div>
+
+@code {
+    private string activeCategory = "Tout";
+
+    private List<PortfolioItem> AllProjects = new List<PortfolioItem>
+    {
+        new PortfolioItem
+        {
+            Title = "Quality SRH",
+            Description = "Plateforme complète de gestion RH. Optimisation des processus administratifs et interface utilisateur ergonomique.",
+            Url = "https://www.qualitysrh.com/",
+            Tags = "WordPress",
+            Category = "Web"
+        },
+        new PortfolioItem
+        {
+            Title = "Yoo Visit",
+            Description = "Solution de visite virtuelle interactive. Intégration multimédia fluide pour une expérience utilisateur immersive.",
+            Url = "#",
+            Tags = "Blazor | Flutter",
+            Category = "Mobile"
+        },
+        new PortfolioItem
+        {
+            Title = "Go Citoyen",
+            Description = "Plateforme d'entraînement à l'examen civique (obligatoire depuis le 1er janv. 2026).",
+            Url = "#",
+            Tags = "Blazor | API",
+            Category = "Web"
+        },
+        new PortfolioItem
+        {
+            Title = "Gestion Stock V2",
+            Description = "Logiciel desktop de gestion de stock pour PME avec suivi en temps réel et exports comptables.",
+            Url = "#",
+            Tags = "WPF | C#",
+            Category = "Logiciel"
+        }
+    };
+
+    private List<PortfolioItem> FilteredProjects => activeCategory == "Tout"
+        ? AllProjects
+        : AllProjects.Where(p => p.Category == activeCategory || p.Tags.Contains(activeCategory)).ToList();
+
+    private void Filter(string category)
+    {
+        activeCategory = category;
+    }
+}

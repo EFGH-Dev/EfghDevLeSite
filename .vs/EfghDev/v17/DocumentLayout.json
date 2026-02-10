@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\shared\\cookiebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\shared\\cookiebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\pages\\legal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\legal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|c:\\users\\plume\\desktop\\efghdev le site\\efghdev\\efghdev\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\_Imports.razor",
+              "RelativeToolTip": "EfghDev\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T00:00:44.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CookieBanner.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Shared\\CookieBanner.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Shared\\CookieBanner.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Shared\\CookieBanner.razor",
+              "RelativeToolTip": "EfghDev\\Shared\\CookieBanner.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:58:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Legal.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Legal.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Legal.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Legal.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Legal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:48:18.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:41:04.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Layout\\Footer.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\Footer.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Layout\\Footer.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Layout\\Footer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:18:16.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Contact.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Contact.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Contact.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Contact.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwJ4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:18:04.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\App.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\App.razor",
+              "RelativeToolTip": "EfghDev\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:10:44.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Routes.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T23:10:36.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "EfghDev\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\wwwroot\\app.css",
+              "RelativeToolTip": "EfghDev\\wwwroot\\app.css",
+              "ViewState": "AgIAAMwDAAAAAAAAAAAAwAwEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-09T22:55:04.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Projects.razor",
+              "DocumentMoniker": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Projects.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Projects.razor",
+              "ToolTip": "C:\\Users\\plume\\Desktop\\efghDev le site\\EfghDev\\EfghDev\\Components\\Pages\\Projects.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Projects.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T22:47:17.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

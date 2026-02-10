@@ -1,0 +1,35 @@
+﻿@using EfghDev.Models
+
+<div class="project-card h-100">
+    <div class="card-body d-flex flex-column">
+        <h3 class="project-title">@Item.Title</h3>
+
+        <div class="mb-3">
+            <span class="tech-tag">@Item.Tags</span>
+        </div>
+
+        <p class="project-desc flex-grow-1">
+            @Item.Description
+        </p>
+
+        <div class="mt-auto">
+            @if (string.IsNullOrEmpty(Item.Url) || Item.Url == "#")
+            {
+                <button class="btn-soon" disabled>
+                    <i class="fas fa-clock display-icon"></i> Bientôt
+                </button>
+            }
+            else
+            {
+                <a href="@Item.Url" target="_blank" class="btn-visit-card">
+                    Visiter le site <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public PortfolioItem Item { get; set; } = new();
+}

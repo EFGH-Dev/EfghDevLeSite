@@ -1,0 +1,193 @@
+﻿@page "/contact"
+@using System.ComponentModel.DataAnnotations
+
+<PageTitle>Contactez EFGH Dev - Discutons de votre projet</PageTitle>
+
+<div class="contact-page fade-in">
+
+    <section class="hero-section mb-5">
+        <div class="container">
+            <h1 class="mb-3" style="font-weight: 800; font-size: 3rem; color: var(--text-light); text-transform: uppercase;">
+                ME <span style="color: var(--primary-cyan);">CONTACTER</span>
+            </h1>
+            
+            <div style="width: 60px; height: 4px; background: var(--primary-pink); margin: 0 auto 20px auto; border-radius: 2px;"></div>
+            
+            <p style="color: #b8b8b8; max-width: 600px; margin: 0 auto; font-size: 1.1rem;">
+                Vous avez un projet de site web, d'application mobile ou besoin d'une expertise technique ? 
+                Remplissez ce formulaire, je m'engage à vous répondre sous 24h.
+            </p>
+        </div>
+    </section>
+
+    <div class="contact-wrapper" style="padding-top: 0;">
+        <div class="container">
+            <div class="row g-5">
+                
+                <div class="col-lg-4 animate-entry delay-2">
+                    <div class="info-card h-100">
+                        <h4 class="mb-4">Mes Coordonnées</h4>
+                        
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p><a href="mailto:contact@efghdev.com">contact@efghdev.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Localisation</h5>
+                                <p>Grand Est, France</p>
+                                <small class="text-highlight">Disponible en Télétravail</small>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Réseaux</h5>
+                                <p>
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> / 
+                                    <a href="https://github.com/EFGH-Dev" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+                        
+                        <div class="freelance-info">
+                            <h5 class="mb-3">Engagement Qualité</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-cyan me-2"></i> Devis gratuit sous 24h</li>
+                                <li class="mb-2"><i class="fas fa-check text-cyan me-2"></i> Code source propriétaire</li>
+                                <li><i class="fas fa-check text-cyan me-2"></i> Respect des délais</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 animate-entry delay-3">
+                    <div class="form-card">
+                        
+                        @if (messageSent)
+                        {
+                            <div class="success-message text-center py-5">
+                                <div class="success-icon mb-4">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3 style="color: #ffffff;">Message Transmis !</h3>
+                                <p class="text-muted">Merci de votre confiance. Je reviens vers vous très rapidement.</p>
+                                <button class="btn-reset" @onclick="ResetForm">Envoyer un autre message</button>
+                            </div>
+                        }
+                        else
+                        {
+                            <EditForm Model="@contactModel" OnValidSubmit="HandleSubmit">
+                                <DataAnnotationsValidator />
+                                
+                                <h4 class="mb-4">Envoyez-moi un message</h4>
+
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Nom complet *</label>
+                                        <InputText @bind-Value="contactModel.Name" class="form-control custom-input" placeholder="ex: Jean Dupont" />
+                                        <ValidationMessage For="@(() => contactModel.Name)" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Entreprise</label>
+                                        <InputText @bind-Value="contactModel.Company" class="form-control custom-input" placeholder="ex: Ma Société" />
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">Email pro *</label>
+                                        <InputText @bind-Value="contactModel.Email" class="form-control custom-input" placeholder="ex: jean@societe.com" />
+                                        <ValidationMessage For="@(() => contactModel.Email)" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Téléphone</label>
+                                        <InputText @bind-Value="contactModel.Phone" class="form-control custom-input" placeholder="ex: 06 01 02 03 04" />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">Type de projet *</label>
+                                        <InputSelect @bind-Value="contactModel.ProjectType" class="form-control custom-input">
+                                            <option value="">-- Sélectionnez --</option>
+                                            <option value="Site Internet">Site Internet (Vitrine / E-commerce)</option>
+                                            <option value="App Web">Application Web / SaaS</option>
+                                            <option value="Mobile">Application Mobile</option>
+                                            <option value="Logiciel">Logiciel Desktop</option>
+                                            <option value="Autre">Autre demande</option>
+                                        </InputSelect>
+                                        <ValidationMessage For="@(() => contactModel.ProjectType)" />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">Message *</label>
+                                        <InputTextArea @bind-Value="contactModel.Message" class="form-control custom-input" rows="5" placeholder="Dites-m'en plus sur votre besoin..." />
+                                        <ValidationMessage For="@(() => contactModel.Message)" />
+                                    </div>
+                                    
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn-submit" disabled="@isSending">
+                                            @if (isSending)
+                                            {
+                                                <span><i class="fas fa-spinner fa-spin"></i> Envoi en cours...</span>
+                                            }
+                                            else
+                                            {
+                                                <span>ENVOYER MA DEMANDE <i class="fas fa-paper-plane ms-2"></i></span>
+                                            }
+                                        </button>
+                                    </div>
+                                </div>
+                            </EditForm>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div
+
+@code {
+    private ContactFormModel contactModel = new();
+    private bool isSending = false;
+    private bool messageSent = false;
+
+    private async Task HandleSubmit()
+    {
+        isSending = true;
+        await Task.Delay(2000);
+        isSending = false;
+        messageSent = true;
+    }
+
+    private void ResetForm()
+    {
+        contactModel = new();
+        messageSent = false;
+    }
+
+    public class ContactFormModel
+    {
+        [Required(ErrorMessage = "Requis")]
+        public string Name { get; set; } = "";
+        public string Company { get; set; } = "";
+        [Required(ErrorMessage = "Requis"), EmailAddress]
+        public string Email { get; set; } = "";
+        public string Phone { get; set; } = "";
+        [Required(ErrorMessage = "Requis")]
+        public string ProjectType { get; set; } = "";
+        [Required(ErrorMessage = "Requis"), MinLength(10)]
+        public string Message { get; set; } = "";
+    }
+}
