@@ -1,5 +1,7 @@
 ﻿@page "/contact"
 @using System.ComponentModel.DataAnnotations
+@using EfghDev.Services
+@inject IEmailService EmailService
 
 <PageTitle>Contactez EFGH Dev - Discutons de votre projet</PageTitle>
 
@@ -34,7 +36,7 @@
                             </div>
                             <div>
                                 <h5>Email</h5>
-                                <p><a href="mailto:contact@efghdev.com">contact@efgh-dev.fr</a></p>
+                                <p><a href="mailto:contact@efgh-dev.fr">contact@efgh-dev.fr</a></p>
                             </div>
                         </div>
 
@@ -150,6 +152,14 @@
                                 </div>
                             </EditForm>
                         }
+                        @if (sendError)
+                        {
+                            <div class="alert alert-danger mt-3 animate-entry">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                Oups, une erreur technique est survenue lors de l'envoi.
+                                Merci de me contacter directement par mail ou téléphone.
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
@@ -161,23 +171,40 @@
     private ContactFormModel contactModel = new();
     private bool isSending = false;
     private bool messageSent = false;
+    private bool sendError = false; // Petit ajout pour gérer l'échec
 
     private async Task HandleSubmit()
     {
         isSending = true;
-        await Task.Delay(2000);
+        sendError = false; // Reset error state
+
+        // Appel asynchrone au service SMTP
+        var success = await EmailService.SendContactEmailAsync(contactModel);
+
         isSending = false;
-        messageSent = true;
+
+        if (success)
+        {
+            messageSent = true;
+            // Optionnel : Reset le formulaire ici si tu veux
+        }
+        else
+        {
+            sendError = true;
+            // Tu peux afficher un petit message d'erreur dans le HTML si sendError est true
+        }
     }
 
     private void ResetForm()
     {
         contactModel = new();
         messageSent = false;
+        sendError = false;
     }
 
     public class ContactFormModel
     {
+        // ... ta classe reste identique ...
         [Required(ErrorMessage = "Requis")]
         public string Name { get; set; } = "";
         public string Company { get; set; } = "";

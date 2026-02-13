@@ -1,5 +1,7 @@
 using EfghDev.Client.Pages;
 using EfghDev.Components;
+using EfghDev.Models;
+using EfghDev.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<IEmailService, OvhEmailService>();
 
 var app = builder.Build();
 
