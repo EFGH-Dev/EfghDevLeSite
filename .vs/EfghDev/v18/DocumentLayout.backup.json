@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\services\\ovhemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\services\\ovhemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\services\\ovhemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\services\\ovhemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\efghdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\efghdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\shared\\cookiebanner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,12 +82,12 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Program.cs",
               "RelativeDocumentMoniker": "EfghDev\\Program.cs",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Program.cs*",
-              "RelativeToolTip": "EfghDev\\Program.cs*",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Program.cs",
+              "RelativeToolTip": "EfghDev\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T15:59:34.038Z",
@@ -95,12 +95,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OvhEmailService.cs",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\OvhEmailService.cs",
               "RelativeDocumentMoniker": "EfghDev\\Services\\OvhEmailService.cs",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\OvhEmailService.cs*",
-              "RelativeToolTip": "EfghDev\\Services\\OvhEmailService.cs*",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\OvhEmailService.cs",
+              "RelativeToolTip": "EfghDev\\Services\\OvhEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T15:58:50.937Z",
@@ -112,8 +112,8 @@
               "Title": "IEmailService.cs",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\IEmailService.cs",
               "RelativeDocumentMoniker": "EfghDev\\Services\\IEmailService.cs",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\IEmailService.cs*",
-              "RelativeToolTip": "EfghDev\\Services\\IEmailService.cs*",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Services\\IEmailService.cs",
+              "RelativeToolTip": "EfghDev\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T15:57:50.597Z",
@@ -121,12 +121,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Models\\EmailSettings.cs",
               "RelativeDocumentMoniker": "EfghDev\\Models\\EmailSettings.cs",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Models\\EmailSettings.cs*",
-              "RelativeToolTip": "EfghDev\\Models\\EmailSettings.cs*",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "EfghDev\\Models\\EmailSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T15:57:09.501Z",
@@ -134,7 +134,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Contact.razor",
+              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Contact.razor",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Contact.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAALUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T12:41:42.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projects.razor",
+              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Projects.razor",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Projects.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T12:41:42.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Home.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Home.razor",
@@ -147,20 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Contact.razor",
-              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor",
-              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Contact.razor",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor*",
-              "RelativeToolTip": "EfghDev\\Components\\Pages\\Contact.razor*",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAALQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EfghDev",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\EfghDev.csproj",
               "RelativeDocumentMoniker": "EfghDev\\EfghDev.csproj",
@@ -173,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\appsettings.json",
               "RelativeDocumentMoniker": "EfghDev\\appsettings.json",
@@ -215,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\MainLayout.razor",
@@ -237,19 +250,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-13T12:41:42.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Projects.razor",
-              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
-              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Projects.razor",
-              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
-              "RelativeToolTip": "EfghDev\\Components\\Pages\\Projects.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.51Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
