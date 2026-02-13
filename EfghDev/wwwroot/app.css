@@ -38,29 +38,29 @@ body {
     z-index: 1; /* S'assure d'être au dessus du fond */
 }
 
-    /* L'anneau coloré (Cyan/Rose) qui tourne */
-    .logo-container::before {
-        content: "";
-        position: absolute;
-        inset: -5px; /* L'anneau dépasse de 5px */
-        border-radius: 50%;
-        background: conic-gradient( var(--primary-cyan), var(--primary-pink), var(--primary-cyan) );
-        z-index: -1; /* Derrière l'image */
-        animation: spinRing 2s linear infinite; /* Rotation continue */
-    }
+/* L'anneau coloré (Cyan/Rose) qui tourne */
+.logo-container::before {
+    content: "";
+    position: absolute;
+    inset: -5px; /* L'anneau dépasse de 5px */
+    border-radius: 50%;
+    background: conic-gradient( var(--primary-cyan), var(--primary-pink), var(--primary-cyan) );
+    z-index: -1; /* Derrière l'image */
+    animation: spinRing 2s linear infinite; /* Rotation continue */
+}
 
-    /* Une seconde couche floue pour l'effet "Néon/Glow" */
-    .logo-container::after {
-        content: "";
-        position: absolute;
-        inset: -5px;
-        border-radius: 50%;
-        background: conic-gradient( var(--primary-cyan), var(--primary-pink), var(--primary-cyan) );
-        z-index: -1;
-        filter: blur(15px); /* Flou artistique */
-        animation: spinRing 2s linear infinite;
-        opacity: 0.7;
-    }
+/* Une seconde couche floue pour l'effet "Néon/Glow" */
+.logo-container::after {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border-radius: 50%;
+    background: conic-gradient( var(--primary-cyan), var(--primary-pink), var(--primary-cyan) );
+    z-index: -1;
+    filter: blur(15px); /* Flou artistique */
+    animation: spinRing 2s linear infinite;
+    opacity: 0.7;
+}
 
 /* L'image du logo elle-même */
 .hero-logo {
@@ -72,9 +72,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-    .hero-logo:hover {
-        transform: scale(1.05); /* Petit zoom au survol */
-    }
+.hero-logo:hover {
+    transform: scale(1.05); /* Petit zoom au survol */
+}
 
 /* L'animation de rotation */
 @keyframes spinRing {
@@ -110,29 +110,29 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-    /* Effet Hover */
-    .project-card:hover {
-        transform: translateY(-7px);
-        border-color: var(--primary-cyan);
-        box-shadow: 0 10px 30px rgba(0, 242, 255, 0.15);
-    }
+/* Effet Hover */
+.project-card:hover {
+    transform: translateY(-7px);
+    border-color: var(--primary-cyan);
+    box-shadow: 0 10px 30px rgba(0, 242, 255, 0.15);
+}
 
-    /* La barre colorée du haut */
-    .project-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background: linear-gradient(90deg, var(--primary-cyan), var(--primary-pink));
-        opacity: 0.7;
-        transition: opacity 0.3s;
-    }
+/* La barre colorée du haut */
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-cyan), var(--primary-pink));
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
 
-    .project-card:hover::before {
-        opacity: 1;
-    }
+.project-card:hover::before {
+    opacity: 1;
+}
 
 /* Titre */
 .project-title {
@@ -183,11 +183,11 @@ body {
     font-size: 0.9rem;
 }
 
-    .btn-visit-card:hover {
-        background-color: var(--primary-cyan);
-        color: var(--bg-dark);
-        box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-    }
+.btn-visit-card:hover {
+    background-color: var(--primary-cyan);
+    color: var(--bg-dark);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
 
 /* Bouton "Bientôt" (Inactif) */
 .btn-soon {
@@ -223,11 +223,11 @@ body {
     transition: all 0.3s;
 }
 
-    .btn-visit:hover {
-        background-color: var(--primary-cyan);
-        color: #1e2230;
-        box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-    }
+.btn-visit:hover {
+    background-color: var(--primary-cyan);
+    color: #1e2230;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
 
 .cta-container {
     margin-top: 30px;
@@ -250,12 +250,12 @@ body {
     transition: all 0.3s ease;
 }
 
-    .btn-github:hover {
-        background-color: var(--primary-pink);
-        color: white;
-        box-shadow: 0 0 15px rgba(255, 0, 153, 0.4);
-        transform: translateY(-2px);
-    }
+.btn-github:hover {
+    background-color: var(--primary-pink);
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 153, 0.4);
+    transform: translateY(-2px);
+}
 
 /* =========================================
    BARRE DE NAVIGATION (NAVBAR)
@@ -282,10 +282,10 @@ body {
     position: relative;
 }
 
-    .nav-item-custom:hover, .nav-item-custom.active {
-        color: var(--primary-cyan) !important;
-        text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
-    }
+.nav-item-custom:hover, .nav-item-custom.active {
+    color: var(--primary-cyan) !important;
+    text-shadow: 0 0 8px rgba(0, 242, 255, 0.6);
+}
 
 .navbar-brand-custom {
     font-weight: 800;
@@ -331,10 +331,10 @@ body {
     pointer-events: auto !important; /* Réactive les clics si jamais ils étaient désactivés */
 }
 
-    .footer-link:hover {
-        color: var(--primary-cyan);
-        padding-left: 8px;
-    }
+.footer-link:hover {
+    color: var(--primary-cyan);
+    padding-left: 8px;
+}
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -357,17 +357,17 @@ body {
     overflow: hidden;
 }
 
-    .about-section::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 20px;
-        bottom: 20px;
-        width: 4px;
-        background-color: var(--primary-pink);
-        border-radius: 0 4px 4px 0;
-        box-shadow: 0 0 10px var(--primary-pink);
-    }
+.about-section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 20px;
+    width: 4px;
+    background-color: var(--primary-pink);
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 0 10px var(--primary-pink);
+}
 
 .section-title {
     font-weight: 800;
@@ -473,39 +473,39 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-    /* Effet Hover (Glow) */
-    .info-card:hover, .form-card:hover {
-        transform: translateY(-7px);
-        border-color: var(--primary-cyan);
-        box-shadow: 0 10px 30px rgba(0, 242, 255, 0.15);
-    }
+/* Effet Hover (Glow) */
+.info-card:hover, .form-card:hover {
+    transform: translateY(-7px);
+    border-color: var(--primary-cyan);
+    box-shadow: 0 10px 30px rgba(0, 242, 255, 0.15);
+}
 
-    /* Barre supérieure colorée */
-    .info-card::before, .form-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background: linear-gradient(90deg, var(--primary-cyan), var(--primary-pink));
-        opacity: 0.7;
-        transition: opacity 0.3s;
-    }
+/* Barre supérieure colorée */
+.info-card::before, .form-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-cyan), var(--primary-pink));
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
 
-    .info-card:hover::before, .form-card:hover::before {
-        opacity: 1;
-    }
+.info-card:hover::before, .form-card:hover::before {
+    opacity: 1;
+}
 
-    /* --- CORRECTIF VISIBILITÉ "MES COORDONNÉES" --- */
+/* --- CORRECTIF VISIBILITÉ "MES COORDONNÉES" --- */
 
-    /* Titres principaux (H4) */
-    .info-card h4, .form-card h4 {
-        color: #ffffff !important; /* BLANC PUR */
-        font-weight: 700;
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
+/* Titres principaux (H4) */
+.info-card h4, .form-card h4 {
+    color: #ffffff !important; /* BLANC PUR */
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
 /* Sous-titres (Email, Loc...) */
 .info-item h5 {
@@ -604,30 +604,30 @@ body {
     transition: all 0.3s ease;
 }
 
-    /* Quand on clique dedans (Focus) */
-    .custom-input:focus {
-        background-color: var(--bg-dark) !important; /* Reste sombre */
-        color: #ffffff !important; /* Reste blanc */
-        border-color: var(--primary-cyan);
-        box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
-        outline: none;
-    }
+/* Quand on clique dedans (Focus) */
+.custom-input:focus {
+    background-color: var(--bg-dark) !important; /* Reste sombre */
+    color: #ffffff !important; /* Reste blanc */
+    border-color: var(--primary-cyan);
+    box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+    outline: none;
+}
 
-    /* Placeholder (le texte "ex: M. Dupont") */
-    .custom-input::placeholder {
-        color: #888888;
-        opacity: 1;
-    }
+/* Placeholder (le texte "ex: M. Dupont") */
+.custom-input::placeholder {
+    color: #888888;
+    opacity: 1;
+}
 
-    /* Gestion de l'Autofill (Quand le navigateur remplit tout seul) */
-    .custom-input:-webkit-autofill,
-    .custom-input:-webkit-autofill:hover,
-    .custom-input:-webkit-autofill:focus,
-    .custom-input:-webkit-autofill:active {
-        -webkit-box-shadow: 0 0 0 30px var(--bg-dark) inset !important;
-        -webkit-text-fill-color: white !important;
-        transition: background-color 5000s ease-in-out 0s;
-    }
+/* Gestion de l'Autofill (Quand le navigateur remplit tout seul) */
+.custom-input:-webkit-autofill,
+.custom-input:-webkit-autofill:hover,
+.custom-input:-webkit-autofill:focus,
+.custom-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px var(--bg-dark) inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
 
 /* Menu déroulant (Select) */
 select.custom-input {
@@ -638,11 +638,11 @@ select.custom-input {
     background-size: 16px;
 }
 
-    /* Les options du menu déroulant */
-    select.custom-input option {
-        background-color: var(--bg-dark);
-        color: white;
-    }
+/* Les options du menu déroulant */
+select.custom-input option {
+    background-color: var(--bg-dark);
+    color: white;
+}
 
 /* Bouton Envoyer */
 .btn-submit {
@@ -659,11 +659,11 @@ select.custom-input {
     margin-top: 10px;
 }
 
-    .btn-submit:hover:not(:disabled) {
-        transform: translateY(-3px);
-        box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
-        color: white;
-    }
+.btn-submit:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
+    color: white;
+}
 
 .validation-message {
     color: var(--primary-pink);
@@ -699,29 +699,29 @@ select.custom-input {
     animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 
-    .glitch::before,
-    .glitch::after {
-        content: attr(data-text);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
-    .glitch::before {
-        left: 2px;
-        text-shadow: -2px 0 var(--primary-pink);
-        clip: rect(44px, 450px, 56px, 0);
-        animation: glitch-anim 5s infinite linear alternate-reverse;
-    }
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 var(--primary-pink);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+}
 
-    .glitch::after {
-        left: -2px;
-        text-shadow: -2px 0 var(--primary-cyan);
-        clip: rect(44px, 450px, 56px, 0);
-        animation: glitch-anim2 5s infinite linear alternate-reverse;
-    }
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 var(--primary-cyan);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
 
 .error-subtitle {
     color: var(--primary-cyan);
@@ -842,61 +842,61 @@ select.custom-input {
         transform: skew(0deg);
     }
 }
-    /* =========================================
-   PAGE RÉALISATIONS (STYLE PRO)
-   ========================================= */
-    /* Wrapper global */
-    .projects-wrapper {
-        /* Pas de padding-top car le hero s'en charge */
-        padding-bottom: 150px; /* ENORME MARGE EN BAS pour ne pas toucher le footer */
-        min-height: 100vh;
-    }
-    /* =========================================
-   FILTRES (STYLE CYBER / ME CONTACTER)
-   ========================================= */
+/* =========================================
+PAGE RÉALISATIONS (STYLE PRO)
+========================================= */
+/* Wrapper global */
+.projects-wrapper {
+    /* Pas de padding-top car le hero s'en charge */
+    padding-bottom: 150px; /* ENORME MARGE EN BAS pour ne pas toucher le footer */
+    min-height: 100vh;
+}
+/* =========================================
+FILTRES (STYLE CYBER / ME CONTACTER)
+========================================= */
 
-    .filter-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin-bottom: 50px;
-    }
-    /* LE STYLE DU BOUTON (Au repos) */
-    .btn-filter {
-        /* 1. Reset du style par défaut */
-        appearance: none;
-        -webkit-appearance: none;
-        background: transparent !important;
-        /* 2. Le style "Me Contacter" */
-        border: 2px solid var(--primary-cyan) !important; /* Bordure Cyan visible */
-        color: var(--primary-cyan) !important; /* Texte Cyan */
-        border-radius: 8px !important; /* Coins légèrement arrondis */
-        padding: 10px 30px !important; /* Largeur confortable */
-        /* 3. Texte */
-        font-family: 'Segoe UI', sans-serif;
-        font-weight: 700 !important;
-        text-transform: none !important; /* Pas de majuscules forcées si tu veux garder "Me contacter" style */
-        font-size: 1rem !important;
-        /* 4. Animation */
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0 0 5px rgba(0, 242, 255, 0.1);
-    }
-    /* LE STYLE AU SURVOL (Hover) */
-    .btn-filter:hover {
-        box-shadow: 0 0 20px rgba(0, 242, 255, 0.6) !important; /* Glow externe */
-        text-shadow: 0 0 8px rgba(0, 242, 255, 0.8); /* Glow texte */
-        transform: translateY(-2px); /* Petit saut */
-        background-color: rgba(0, 242, 255, 0.05) !important; /* Fond très léger */
-    }
-    /* LE STYLE ACTIF (Bouton sélectionné) */
-    .btn-filter.active {
-        background-color: var(--primary-cyan) !important; /* Remplissage Cyan */
-        color: var(--bg-dark) !important; /* Texte Sombre pour contraste */
-        box-shadow: 0 0 25px rgba(0, 242, 255, 0.5) !important;
-        font-weight: 800 !important;
-    }
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+/* LE STYLE DU BOUTON (Au repos) */
+.btn-filter {
+    /* 1. Reset du style par défaut */
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent !important;
+    /* 2. Le style "Me Contacter" */
+    border: 2px solid var(--primary-cyan) !important; /* Bordure Cyan visible */
+    color: var(--primary-cyan) !important; /* Texte Cyan */
+    border-radius: 8px !important; /* Coins légèrement arrondis */
+    padding: 10px 30px !important; /* Largeur confortable */
+    /* 3. Texte */
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700 !important;
+    text-transform: none !important; /* Pas de majuscules forcées si tu veux garder "Me contacter" style */
+    font-size: 1rem !important;
+    /* 4. Animation */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 242, 255, 0.1);
+}
+/* LE STYLE AU SURVOL (Hover) */
+.btn-filter:hover {
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.6) !important; /* Glow externe */
+    text-shadow: 0 0 8px rgba(0, 242, 255, 0.8); /* Glow texte */
+    transform: translateY(-2px); /* Petit saut */
+    background-color: rgba(0, 242, 255, 0.05) !important; /* Fond très léger */
+}
+/* LE STYLE ACTIF (Bouton sélectionné) */
+.btn-filter.active {
+    background-color: var(--primary-cyan) !important; /* Remplissage Cyan */
+    color: var(--bg-dark) !important; /* Texte Sombre pour contraste */
+    box-shadow: 0 0 25px rgba(0, 242, 255, 0.5) !important;
+    font-weight: 800 !important;
+}
 /* =========================================
    BANDEAU COOKIES (STYLE CYBER)
    ========================================= */
@@ -973,10 +973,10 @@ select.custom-input {
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
 }
 
-    .btn-cookie-accept:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 0 25px rgba(0, 242, 255, 0.6);
-    }
+.btn-cookie-accept:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(0, 242, 255, 0.6);
+}
 
 /* Bouton Refuser (Contour Rose) */
 .btn-cookie-refuse {
@@ -990,11 +990,11 @@ select.custom-input {
     transition: all 0.3s;
 }
 
-    .btn-cookie-refuse:hover {
-        border-color: var(--primary-pink);
-        color: var(--primary-pink);
-        box-shadow: 0 0 10px rgba(255, 0, 153, 0.2);
-    }
+.btn-cookie-refuse:hover {
+    border-color: var(--primary-pink);
+    color: var(--primary-pink);
+    box-shadow: 0 0 10px rgba(255, 0, 153, 0.2);
+}
 
 /* Animation d'apparition */
 .animate-slide-up {

@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon" style="background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(0, 242, 255, 1)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E');"></span>
         </button>
 
-        <div class="@NavMenuCssClass collapse navbar-collapse justify-content-end">
+        <div class="@NavMenuCssClass navbar-collapse justify-content-end">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <NavLink class="nav-link nav-item-custom" href="" Match="NavLinkMatch.All">
@@ -14,14 +14,14 @@
                     </NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-item-custom" href="realisations">
+                    <NavLink class="nav-link nav-item-custom" href="realisations">
                         Mes Réalisations
-                    </a>
+                    </NavLink>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-item-custom" href="Contact">
+                    <NavLink class="nav-link nav-item-custom" href="Contact">
                         Me Contacter
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </div>
@@ -29,8 +29,11 @@
 </nav>
 
 @code {
+    // Typage explicite booléen pour l'état du menu
     private bool collapseNavMenu = true;
 
+    // Expression-bodied member pour calculer la classe CSS dynamiquement
+    // Si collapseNavMenu est true, on ajoute "collapse" (caché), sinon null (visible)
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
