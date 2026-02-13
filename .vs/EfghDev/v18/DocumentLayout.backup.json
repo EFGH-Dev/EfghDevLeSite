@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\NavMenu.razor",
@@ -165,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "app.css",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "EfghDev\\wwwroot\\app.css",
