@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\contact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\efghdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\efghdev.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\legal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\legal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Home.razor",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Home.razor*",
+              "RelativeToolTip": "EfghDev\\Components\\Pages\\Home.razor*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAGMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T15:47:31.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfghDev",
+              "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\EfghDev.csproj",
+              "RelativeDocumentMoniker": "EfghDev\\EfghDev.csproj",
+              "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\EfghDev.csproj",
+              "RelativeToolTip": "EfghDev\\EfghDev.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-13T14:44:12.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\appsettings.json",
               "RelativeDocumentMoniker": "EfghDev\\appsettings.json",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CookieBanner.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Shared\\CookieBanner.razor",
               "RelativeDocumentMoniker": "EfghDev\\Shared\\CookieBanner.razor",
@@ -100,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\MainLayout.razor",
@@ -108,11 +142,12 @@
               "RelativeToolTip": "EfghDev\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.494Z"
+              "WhenOpened": "2026-02-13T12:41:42.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Footer.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\Footer.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\Footer.razor",
@@ -124,20 +159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Contact.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Contact.razor",
               "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Contact.razor",
               "RelativeToolTip": "EfghDev\\Components\\Pages\\Contact.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-13T12:41:42.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Projects.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Projects.razor",
@@ -150,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Legal.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Legal.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Legal.razor",
@@ -162,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Imports.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\_Imports.razor",
@@ -174,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "App.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\App.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\App.razor",
@@ -186,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Routes.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Routes.razor",
@@ -198,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "app.css",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "EfghDev\\wwwroot\\app.css",
