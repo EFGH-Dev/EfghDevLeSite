@@ -296,6 +296,16 @@ body {
     letter-spacing: -1px;
 }
 
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1049;
+    background-color: transparent; /* Invisible ou rgba(0,0,0,0.5) pour assombrir le fond */
+}
+
 /* =========================================
    PIED DE PAGE (FOOTER)
    ========================================= */
