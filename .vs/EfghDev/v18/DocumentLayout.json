@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\components\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|solutionrelative:efghdev\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80B24D3C-03DC-417C-9F9F-CC8D4F2B54E0}|EfghDev\\EfghDev.csproj|e:\\documents\\perpaynes\\documents\\efgh dev\\efghdevlesite\\efghdevlesite\\efghdev\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Home.razor",
@@ -110,25 +110,24 @@
               "RelativeToolTip": "EfghDev\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAACYAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T15:47:31.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:47:31.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "EfghDev\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-13T19:14:01.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\MainLayout.razor",
@@ -136,12 +135,11 @@
               "RelativeToolTip": "EfghDev\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T12:41:42.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Footer.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Layout\\Footer.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Layout\\Footer.razor",
@@ -149,25 +147,24 @@
               "RelativeToolTip": "EfghDev\\Components\\Layout\\Footer.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T12:41:42.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "app.css",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "EfghDev\\wwwroot\\app.css",
               "ToolTip": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\wwwroot\\app.css",
               "RelativeToolTip": "EfghDev\\wwwroot\\app.css",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAADIBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAqwDoBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-13T12:41:42.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Projects.razor",
               "DocumentMoniker": "E:\\Documents\\Perpaynes\\Documents\\EFGH dev\\EfghDevLeSite\\EfghDevLeSite\\EfghDev\\Components\\Pages\\Projects.razor",
               "RelativeDocumentMoniker": "EfghDev\\Components\\Pages\\Projects.razor",
@@ -175,8 +172,7 @@
               "RelativeToolTip": "EfghDev\\Components\\Pages\\Projects.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T12:41:42.51Z"
             },
             {
               "$type": "Document",
@@ -188,8 +184,7 @@
               "RelativeToolTip": "EfghDev\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T12:41:42.446Z"
             },
             {
               "$type": "Document",
@@ -201,8 +196,7 @@
               "RelativeToolTip": "EfghDev\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T12:41:42.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T12:41:42.51Z"
             },
             {
               "$type": "Document",
@@ -214,8 +208,7 @@
               "RelativeToolTip": "EfghDev\\Models\\EmailSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:57:09.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:57:09.501Z"
             },
             {
               "$type": "Document",
@@ -227,8 +220,7 @@
               "RelativeToolTip": "EfghDev\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:57:50.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:57:50.597Z"
             },
             {
               "$type": "Document",
@@ -240,8 +232,7 @@
               "RelativeToolTip": "EfghDev\\Services\\OvhEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:58:50.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:58:50.937Z"
             },
             {
               "$type": "Document",
